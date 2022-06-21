@@ -6,7 +6,8 @@
   "scripts": {
     "start": "parcel index.html --port 3000",
     "nod": "nodemon index.js",
-    "parcel build": "parcel index.html --port 3000"
+    "parcel build": "parcel index.html --port 3000",
+    "node": "node index.js"
   },
   "author": "",
   "license": "ISC",
