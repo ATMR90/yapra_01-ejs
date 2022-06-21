@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Яндекс практикум</title>
+	<!-- <link rel="icon" href="./favicon.png" /> -->
+	<link rel="stylesheet" href="/public/css/signIn.css" />
+	<script src="/public/signIn.js"></script>
+</head>
+
+<body>
+
+	<div class="ya-sign-in">
+		<div class="card ya-sign-in__card card_shadow">
+			<div class="card__title">
+				Вход
+			</div>
+			<div class="card__form">
+
+				<div class="card__fields">
+					<div class="input" id="inputLogin">
+						<input class="input__field input__field_text" id="login" />
+						<div class="input__label">
+							Логин
+						</div>
+						
+					</div>
+					<div class="input">
+						<input class="input__field input__field_text" id="password" type="password" />
+						<div class="input__label">
+							Пароль
+						</div>
+					</div>
+				</div>
+				<div class="submit card__submit">
+					<div class="submit__error" id="submit__error">
+					</div>
+					<div class="submit__btn" onclick="singInBtn()">
+						Войти
+					</div>
+				</div>
+
+			</div>
+			<div class="card__footer">
+				Нет аккаунта?
+				<a class="card_link" href="">Регистрация</a>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Яндекс практикум</title>
+	<link rel="stylesheet" href="/public/css/signUp.css" />
+	<script src="/public/signUp.js"></script>
+</head>
+<body>
+	<div class="ya-sign-up">
+		<div class="card ya-sign-up__card card_shadow">
+			<div class="card__title">
+				Регистрация
+			</div>
+			<div class="card__form">
+
+				<div class="card__fields">
+					<div class="input">
+						<input class="input__field input__field_text" id="email" />
+						<div class="input__label">
+							Почта
+						</div>
+					</div>
+					<div class="input">
+						<input class="input__field input__field_text" id="firstName" />
+						<div class="input__label">
+							Имя
+						</div>
+					</div>
+					<div class="input">
+						<input class="input__field input__field_text" id="lastName" />
+						<div class="input__label">
+							Фамилия
+						</div>
+					</div>
+					<div class="input">
+						<input class="input__field input__field_text" id="phone" />
+						<div class="input__label">
+							Телефон
+						</div>
+					</div>
+
+					<div class="input" id="inputLogin">
+						<input class="input__field input__field_text" id="login" oninput="loginInputHandler()" />
+						<div class="input__label">
+							Логин
+						</div>
+						
+					</div>
+					<div class="input">
+						<input class="input__field input__field_text" id="passwordOne" type="password" oninput="passwordOneInputHandler()" />
+						<div class="input__label">
+							Пароль
+						</div>
+					</div>
+					<div class="input">
+						<input class="input__field input__field_text" id="passwordTwo" type="password" />
+						<div class="input__label">
+							Пароль еще раз
+						</div>
+					</div>
+				</div>
+				<div class="submit card__submit">
+					<div class="submit__error" id="submit__error">
+					</div>
+					<div class="submit__btn" onclick="singUpBtn()">
+						Регистрация
+					</div>
+				</div>
+
+			</div>
+			<div class="card__footer">
+				Есть аккаунт?
+				<a class="card_link" href="">Вход</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

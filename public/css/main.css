@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+}
+
+.ya-sign-in {
+  background: #F5F5F5;
+  position: relative;
+  width: 1280px;
+  height: 720px;
+}
+.ya-sign-in__card {
+  position: absolute;
+  width: 340px;
+  height: 480px;
+  left: calc(50% - 170px);
+  top: calc(50% - 240px);
+  border-radius: 12px;
+}
+.ya-sign-in__card_shadow {
+  box-shadow: 0px 8px 48px -16px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+}
+
+.card {
+  background: #fff;
+}
+.card_container {
+  position: absolute;
+  width: 292px;
+  height: 305px;
+  left: 24px;
+  top: 116px;
+}
+.card__title {
+  position: absolute;
+  height: 29px;
+  left: 24px;
+  right: 30px;
+  top: 48px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #0E0E0E;
+}
+.card__footer {
+  position: absolute;
+  height: 19px;
+  left: 24px;
+  right: 24px;
+  bottom: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #0E0E0E;
+}
+
+.form__fields {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+}
+.form__error {
+  position: absolute;
+  height: 16px;
+  left: 24px;
+  right: 24px;
+  bottom: 123px;
+}
+.form__btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  height: 48px;
+  bottom: -109px;
+  background: #0380DA;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.form__btn_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #fff;
+}
+
+.input {
+  width: 292px;
+  height: 57px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  position: relative;
+}
+.input__label {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 3px;
+  gap: 10px;
+  z-index: 1;
+  position: absolute;
+  left: 8px;
+  background: #fff;
+}
+.input__label_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #808080;
+  display: flex;
+  align-items: center;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.input__field {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 14px 16px;
+  gap: 10px;
+  position: absolute;
+  height: 48px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 24px + 4.5px);
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+.input__field_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0E0E0E;
+  display: flex;
+  align-items: center;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/*# sourceMappingURL=main.css.map */
