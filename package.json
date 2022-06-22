@@ -9,6 +9,8 @@
     "parcel build": "parcel build index.js",
     "node": "node index.js",
     "main": "parcel main.ejs"
+    // "parcel build": "parcel index.html --port 3000",
+    "node": "node index.js"
   },
   "author": "",
   "license": "ISC",
